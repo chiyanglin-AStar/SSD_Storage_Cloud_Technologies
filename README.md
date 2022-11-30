@@ -27,7 +27,7 @@
 
       - [System Memory](https://github.com/mikeroyal/SSD-Guide#System-memory)
       - [SSD Interfaces](https://github.com/mikeroyal/SSD-Guide#SSD-interfaces)
-      - [SSD Intro and FTL Algorithm](https://github.com/mikeroyal/SSD-Guide#SSD-FTL)
+      - [SSD FTL Algorithm](https://github.com/mikeroyal/SSD-Guide#SSD-FTL-Algorithm )
       - [PCIe Protocols](https://github.com/mikeroyal/SSD-Guide#PCIe-protocols)
       - [Fabrics](https://github.com/mikeroyal/SSD-Guide#Fabrics)
 
@@ -134,7 +134,7 @@
 
 [PCI Express (PCIe)](https://en.wikipedia.org/wiki/PCI_Express) is a high-speed serial computer expansion bus standard, designed to replace the older PCI, PCI-X and AGP bus standards.
 
-##  SSD Intro and FTL Algorithm  
+##  SSD FTL Algorithm  
 [Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
 
 ### English Original Links
