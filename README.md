@@ -27,6 +27,7 @@
 
       - [System Memory](https://github.com/mikeroyal/SSD-Guide#System-memory)
       - [SSD Interfaces](https://github.com/mikeroyal/SSD-Guide#SSD-interfaces)
+      - [SSD Intro and FTL Algorithm](https://github.com/mikeroyal/SSD-Guide#SSD-FTL)
       - [PCIe Protocols](https://github.com/mikeroyal/SSD-Guide#PCIe-protocols)
       - [Fabrics](https://github.com/mikeroyal/SSD-Guide#Fabrics)
 
