@@ -133,6 +133,21 @@
 
 [PCI Express (PCIe)](https://en.wikipedia.org/wiki/PCI_Express) is a high-speed serial computer expansion bus standard, designed to replace the older PCI, PCI-X and AGP bus standards.
 
+##  SSD Intro and FTL Algorithm  
+[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+
+### English Original Links
+[Coding for SSDs – Part 2: Architecture of an SSD and Benchmarking](https://codecapsule.com/2014/02/12/coding-for-ssds-part-2-architecture-of-an-ssd-and-benchmarking/)
+[Coding for SSDs – Part 2: Architecture of an SSD and Benchmarking](http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives/)
+
+### Chinese Links 
+[第一篇 引言](https://www.owlfox.org/blog/2019-11-25-coding-for-SSD-part-1/)
+[第二篇 SSD結構與性能評定概述](https://www.owlfox.org/blog/2019-11-25-coding-for-SSD-part-2/)
+[第三篇 FTL, GC](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-3/)
+[第四篇 FTL 其他功能及平行機制](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-4/)
+[第五篇 access pattern, 系統配置](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-5/)
+[第六篇 結論](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-6/)
+
 ## PCIe Protocols
 [Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
 
