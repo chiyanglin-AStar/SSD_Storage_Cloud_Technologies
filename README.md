@@ -31,7 +31,7 @@
 
       - [System Memory](https://github.com/mikeroyal/SSD-Guide#System-memory)
       - [SSD Interfaces](https://github.com/mikeroyal/SSD-Guide#SSD-interfaces)
-      - [SSD FTL Algorithm](https://github.com/chiyanglin-AStar/SSD_Storage_Study#SSD-FTL-Algorithm )
+      - [SSD FTL Algorithm](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#SSD-FTL-Algorithm )
       - [PCIe Protocols](https://github.com/mikeroyal/SSD-Guide#PCIe-protocols)
       - [Fabrics](https://github.com/mikeroyal/SSD-Guide#Fabrics)
 
