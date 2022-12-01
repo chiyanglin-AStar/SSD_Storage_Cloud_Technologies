@@ -16,7 +16,7 @@
 
 7. [Red Black Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Red-Black-Tree)
 
-7. [Huffman coding](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologie/-/blob/main/Tree_algo.md#Huffman-coding)
+7. [Huffman coding](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologie/blob/main/tree.md#Huffman-coding)
 
 # General
 [Back to the Top](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#table-of-contents)
