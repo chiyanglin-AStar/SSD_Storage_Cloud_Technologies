@@ -1,6 +1,6 @@
-# SSD Storage and Cloud Technologies 
+# SSD Storage and Cloud Technologies
 
-### This is based on https://github.com/mikeroyal/SSD-Guide#System-memory , 
+### This is based on https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#System-memory ,
 ### And add My interest topics
 
 <h1 align="center">
@@ -27,54 +27,59 @@
 
 # Table of Contents
 
-1. [SSD Learning Resources](https://github.com/mikeroyal/SSD-Guide#SSD-learning-resources)
+1. [SSD Learning Resources](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#SSD-learning-resources)
 
-      - [System Memory](https://github.com/mikeroyal/SSD-Guide#System-memory)
-      - [SSD Interfaces](https://github.com/mikeroyal/SSD-Guide#SSD-interfaces)
+      - [System Memory](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#System-memory)
+      - [SSD Interfaces](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#SSD-interfaces)
       - [SSD FTL Algorithm](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#SSD-FTL-Algorithm )
-      - [PCIe Protocols](https://github.com/mikeroyal/SSD-Guide#PCIe-protocols)
-      - [Fabrics](https://github.com/mikeroyal/SSD-Guide#Fabrics)
+      - [PCIe Protocols](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#PCIe-protocols)
+      - [Fabrics](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#Fabrics)
 
-2. [File systems & Storage](https://github.com/mikeroyal/SSD-Guide#file-systems--storage)
+2. [File systems & Storage](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#file-systems--storage)
 
-3. [Virtualization Tools](https://github.com/mikeroyal/SSD-Guide#virtualization-tools)
+3. [Virtualization Tools](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#virtualization-tools)
 
-4. [Emulation Tools](https://github.com/mikeroyal/SSD-Guide#emulation-tools)
+4. [Emulation Tools](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#emulation-tools)
 
-5. [Firmware Development](https://github.com/mikeroyal/SSD-Guide#firmware-development)
+5. [Firmware Development](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#firmware-development)
 
-6. [Verilog/SystemVerilog Development](https://github.com/mikeroyal/SSD-Guide#VerilogSystemVerilog-development)
+6. [Verilog/SystemVerilog Development](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#VerilogSystemVerilog-development)
 
-7. [Assembly Development](https://github.com/mikeroyal/SSD-Guide#assembly-development)
+7. [Assembly Development](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#assembly-development)
 
-8. [C/C++ Development](https://github.com/mikeroyal/SSD-Guide#cc-development)
+8. [C/C++ Development](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#cc-development)
 
-9. [Electric charge, field, and potential](https://github.com/mikeroyal/SSD-Guide#electric-charge-field-and-potential)
+9. [Electric charge, field, and potential](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#electric-charge-field-and-potential)
 
      - Charge and electric force (Coulomb's law): Electric charge, field, and potential
      - Electric field: Electric charge, field, and potential
      - Electric potential energy, electric potential, and voltage: Electric charge, field, and potential
 
-10. [Circuits](https://github.com/mikeroyal/SSD-Guide#Circuits)
+10. [Circuits](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#Circuits)
 
     - Ohm's law and circuits with resistors: Circuits
     - Circuits with capacitors: Circuits
 
-11. [Magnetic forces, magnetic fields, and Faraday's law](https://github.com/mikeroyal/SSD-Guide#magnetic-forces-magnetic-fields-and-Faradays-law)
+11. [Magnetic forces, magnetic fields, and Faraday's law](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#magnetic-forces-magnetic-fields-and-Faradays-law)
 
     - Magnets and Magnetic Force: Magnetic forces, magnetic fields, and Faraday's law
     - Magnetic field created by a current: Magnetic forces, magnetic fields, and Faraday's law
     - Electric motors: Magnetic forces, magnetic fields, and Faraday's law
     - Magnetic flux and Faraday's law
 
-12. [Electromagnetic waves and interference](https://github.com/mikeroyal/SSD-Guide#electromagnetic-waves-and-interference)
+12. [Electromagnetic waves and interference](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#electromagnetic-waves-and-interference)
 
     - Introduction to electromagnetic waves: Electromagnetic waves and interference
     - Interference of electromagnetic waves
 
+13. [Cloud Technologies](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#Cloud_Technologies)
+
+    - Docker
+    - Kubernetes
+    - Microservice
 
 # SSD Learning Resources
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [Solid-State Drive (SSD)](https://en.wikipedia.org/wiki/Solid-state_drive) is a solid-state storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory. SSDs store data in semiconductor cells. where cells can contain between 1 and 4 bits of data. Starting with **single-bit cells ("Single Level Cells" or "SLC")** is generally the most reliable, durable, fast, and expensive type, compared with **2- and 3-bit cells ("Multi-Level Cells/MLC" and "Triple-Level Cells/TLC")**, and finally **quad-bit cells ("QLC")**.
 
@@ -87,7 +92,7 @@
 [SATA vs SSD vs NVMe: Types of Hard Drives | Pluralsight](https://www.pluralsight.com/blog/it-ops/types-of-hard-drives-sata-ssd-nvme)
 
 ## System Memory
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [NAND Flash](https://en.wikipedia.org/wiki/NAND_Flash) is a type flash memory where cells are connected in series, resembling a [CMOS](https://en.wikipedia.org/wiki/CMOS) NAND gate. Flash memory is used in computers, PDAs, digital audio players, digital cameras, mobile phones, synthesizers, video games, scientific instrumentation, industrial robotics, and medical electronics.
 
@@ -128,7 +133,7 @@
 [Bcache](https://en.wikipedia.org/wiki/Bcache) is a cache in the Linux kernel's block layer, which is used for accessing secondary storage devices. It allows one or more fast storage devices, such as flash-based solid-state drives (SSDs), to act as a cache for one or more slower storage devices, such as hard disk drives (HDDs). This effectively creating hybrid volumes and provides performance improvements.
 
 ## SSD Interfaces
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [Serial ATA (SATA)](https://en.wikipedia.org/wiki/SATA) is a computer bus interface that connects host bus adapters to mass storage devices such as hard disk drives, optical drives, and solid-state drives.
 
@@ -139,13 +144,13 @@
 [PCI Express (PCIe)](https://en.wikipedia.org/wiki/PCI_Express) is a high-speed serial computer expansion bus standard, designed to replace the older PCI, PCI-X and AGP bus standards.
 
 ##  SSD FTL Algorithm  
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 ### English Original Links
 [Coding for SSDs – Part 2: Architecture of an SSD and Benchmarking](https://codecapsule.com/2014/02/12/coding-for-ssds-part-2-architecture-of-an-ssd-and-benchmarking/)
 [Coding for SSDs – Part 2: Architecture of an SSD and Benchmarking](http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives/)
 
-### Chinese Links 
+### Chinese Links
 [第一篇 引言](https://www.owlfox.org/blog/2019-11-25-coding-for-SSD-part-1/)
 [第二篇 SSD結構與性能評定概述](https://www.owlfox.org/blog/2019-11-25-coding-for-SSD-part-2/)
 [第三篇 FTL, GC](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-3/)
@@ -153,8 +158,20 @@
 [第五篇 access pattern, 系統配置](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-5/)
 [第六篇 結論](https://www.owlfox.org/blog/2019-11-27-coding-for-SSD-part-6/)
 
+### FTL Examples :
+[FTL Algorithm](https://github.com/hyung8789/FTL_Algorithm/)
+[simpleFTL](https://github.com/shehbazj/simpleFTL)
+[Storage and Peripherals on-line courses](https://www.linkedin.com/learning/comptia-a-plus-220-1001-cert-prep-4-storage-and-peripherals/introduction-to-storage-and-peripherals?autoplay=true)
+
+### FTL Background
+[Flash memory](https://en.wikipedia.org/wiki/Flash_memory#NAND_flash)
+[Memory Technology Device](https://en.wikipedia.org/wiki/Memory_Technology_Device)
+[YAFFS](https://en.wikipedia.org/wiki/YAFFS)
+[Multi-level cell](https://en.wikipedia.org/wiki/Multi-level_cell)
+
+
 ## PCIe Protocols
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [Transaction Layer Packets (TLPs)](https://www.oreilly.com/library/view/pci-express-system/0321156307/0321156307_ch04lev1sec5.html) is the starting point in the assembly of outbound Transaction Layer Packets (TLPs), and the end point for disassembly of inbound TLPs at the receiver. Along the way, the Data Link Layer and Physical Layer of each device contribute to the packet assembly and disassembly.
 
@@ -165,7 +182,7 @@
 [Enumeration](https://resources.infosecinstitute.com/topic/what-is-enumeration/) is defined as a process which establishes an active connection to the target hosts to discover potential attack vectors in the system, and the same can be used for further exploitation of the system.
 
 ## Fabrics
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [NVMe over Fabrics (NVMeOF)](https://www.samsung.com/us/labs/pdfs/nvmf-disaggregation-preprint.pdf) is a recent protocol standard for accessing NVMe devices over RDMA-capable networks. By leveraging RDMA, NVMf offloads data movement to the network card (NIC), thus reducing the processing overheads involved in handling remote I/O requests on both the host and the target.
 
@@ -178,7 +195,7 @@
 [Remote Direct Memory Access(RDMA)fabrics](https://core.vmware.com/resource/basics-remote-direct-memory-access-rdma-vsphere) is an extenion of the Direct Memory Acces (DMA) technology, which is the ability to access host memory directly without CPU intervention. RDMA allows for accessing memory data from one host to another. A key charateric for RDMA is that it greatly improves throughput and performance because less CPU cycles are needed to process the network packets.
 
 # File systems & Storage
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [Flash file system](https://en.wikipedia.org/wiki/Flash_file_system) is a file system designed for storing files on flash memory–based storage devices.
 
@@ -211,7 +228,7 @@
 [exFAT(Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
 
 # Virtualization Tools
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [HVM (Hardware Virtual Machine)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/virtualization_types.html) is a virtualization type that provides the ability to run an operating system directly on top of a virtual machine without any modification, as if it were run on the bare-metal hardware.
 
@@ -286,7 +303,7 @@
 [VMware Workstation](https://www.vmware.com/products/workstation-pro.html) is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems; it enables users to set up virtual machines on a single physical machine, and use them simultaneously along with the actual machine.
 
 # Emulation Tools
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 [Verdi® Protocol Analyzer](https://www.synopsys.com/verification/debug/verdi-protocol-analyzer.html) is a simulator independent, protocol and memory aware debug environment that enables users to quickly debug with any verification environment and easily share simulation results across teams. It gives users a graphical view of the transfers, transaction, packets and handshaking of a protocol. It highlights relationships across the hierarchy, visually unraveling the complex behavior of highly interleaved traffic. Also, enables engineers to quickly understand protocol activity, identify bottlenecks and debug unexpected behavior. Errors, warnings and messages are annotated to rapidly identify problems in the simulation.
 
@@ -317,7 +334,7 @@
 [Universal Verification Methodology (UVM)](https://verificationguide.com/uvm/) is a consists of class libraries needed for the development of well constructed, reusable SystemVerilog based Verification environment. In simple words, UVM consists of a set of base classes with methods defined in it, the SystemVerilog verification environment can be developed by extending these base classes. It will refer the UVM base classes as UVM Classes. [Accelerated UVM Testbenches](https://verificationacademy.com/courses/systemverilog-testbench-acceleration).
 
 # Firmware Development
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/126912889-d86e3171-471a-4c05-b6bf-36a70080ab7c.png">
@@ -409,7 +426,7 @@
 [TMK Keyboard Firmware](https://github.com/tmk/tmk_keyboard) is keyboard firmwares for Atmel AVR and [Arm](https://www.arm.com/) Cortex-M.
 
 # Verilog/SystemVerilog Development
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/102273517-4b785480-3ed7-11eb-910a-113821428f17.png">
@@ -470,7 +487,7 @@
 [OpenTimer](https://github.com/OpenTimer/OpenTimer) is a High-Performance Timing Analysis Tool for VLSI Systems.
 
 # Assembly Development
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/101415607-18154480-389d-11eb-80e8-17a5c57e480f.png">
@@ -518,7 +535,7 @@
 [Intro to Assembly Language from MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/index.htm)
 
 # C/C++ Development
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/115297894-961e0d80-a111-11eb-81c3-e2bd2ac9a7cd.png">
@@ -666,7 +683,7 @@
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
 # Electric charge, field, and potential
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
      - Charge and electric force (Coulomb's law): Electric charge, field, and potential
      - Electric field: Electric charge, field, and potential
@@ -685,7 +702,7 @@
 </p>
 
 # Circuits
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
     - Ohm's law and circuits with resistors: Circuits
     - Circuits with capacitors: Circuits
@@ -705,7 +722,7 @@
  **Symbols of Circuits .Source: [andrewpover.co.uk](https://andrewpover.co.uk/category/physics/)**
 
 # Magnetic forces, magnetic fields, and Faraday's law
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
     - Magnets and Magnetic Force: Magnetic forces, magnetic fields, and Faraday's law
     - Magnetic field created by a current: Magnetic forces, magnetic fields, and Faraday's law
@@ -734,7 +751,7 @@
  **Farady's law. Source: [sdsu-physics](http://sdsu-physics.org/physics180/physics196/Topics/faradaysLaw.html)**
 
 # Electromagnetic waves and interference
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
     - Introduction to electromagnetic waves: Electromagnetic waves and interference
     - Interference of electromagnetic waves
@@ -753,13 +770,34 @@
 
    **EMI Spectrum. Source: [electrical4u](https://www.electrical4u.com/electromagnetic-interference/)**
 
+# Cloud Technologies
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
+
+## Docker
+
+## Kubernetes
+[為什麼你該使用 Kubernetes？微服務與容器化架構的興盛](https://ikala.cloud/kubernetes-gke-introduction/)
+[Deploying Microservices on Kubernetes](https://medium.com/aspnetrun/deploying-microservices-on-kubernetes-35296d369fdb)
+[Why Do You Need Istio When You Already Have Kubernetes?](https://thenewstack.io/why-do-you-need-istio-when-you-already-have-kubernetes/)
+[A Kubernetes Service Mesh Comparison](https://www.toptal.com/kubernetes/service-mesh-comparison)
+
+## Microserices
+[微服務架構 #1, WHY Microservices?](https://columns.chicken-house.net/2016/09/15/microservice-case-study-01/)
+[容器化的微服務開發 #1, IP查詢架構與開發範例](https://columns.chicken-house.net/2017/05/28/aspnet-msa-labs1/)
+[用 100 行 C# 打造 IP 所屬國家快速查詢功能](https://blog.darkthread.net/blog/in-memory-ip-to-country-mapping/)
+[什麼是微服務(Microservices)](https://medium.com/@yijyun10100926/%E8%8F%9C%E9%B3%A5%E6%BC%AB%E6%AD%A5%E9%9B%B2%E7%AB%AF-3-%E4%BB%80%E9%BA%BC%E6%98%AF%E5%BE%AE%E6%9C%8D%E5%8B%99-microservices-51d8b873d252)
+[What are microservices and why would I want them? Microservices in 3 minutes](https://www.youtube.com/watch?app=desktop&v=CKL3fV5UR8w)
+[微服務架構下常見的四個技術難題](https://medium.brobridge.com/%E5%BE%AE%E6%9C%8D%E5%8B%99%E6%9E%B6%E6%A7%8B%E4%B8%8B%E5%B8%B8%E8%A6%8B%E7%9A%84%E5%9B%9B%E5%80%8B%E6%8A%80%E8%A1%93%E9%9B%A3%E9%A1%8C-7e2112d0f0d)
+[Microsrevices 微服務架構](https://ithelp.ithome.com.tw/articles/10228461)
+[microservices demo](https://github.com/GoogleCloudPlatform/microservices-demo)
+
 ## Contribute
 
-- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/SSD-Guide/pulls).
+- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies/pulls).
 
 
 ## License
 
-[Back to the Top](https://github.com/mikeroyal/SSD-Guide#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/SSD_Storage_Cloud_Technologies#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
